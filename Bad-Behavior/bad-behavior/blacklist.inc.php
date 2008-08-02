@@ -38,11 +38,13 @@ function bb2_blacklist($package) {
 		"psycheclone",		// spam harvester
 		"PussyCat ",		// misc comment spam
 		"PycURL",		// misc comment spam
-		"Shockwave Flash",	// spam harvester
+//		"Shockwave Flash",	// spam harvester
+//		WP 2.5 now has Flash; FIXME
 		"TrackBack/",		// trackback spam
 		"user",			// suspicious harvester
 		"User Agent: ",		// spam harvester
 		"User-Agent: ",		// spam harvester
+		"Winnie Poh",		// Automated Coppermine hacks
 		"Wordpress",		// malicious software
 		"\"",			// malicious software
 	);

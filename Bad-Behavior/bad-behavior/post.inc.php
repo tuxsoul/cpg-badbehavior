@@ -32,9 +32,13 @@ function bb2_post($settings, $package)
 	// Screen by cookie/JavaScript form add
 	if (isset($_COOKIE[BB2_COOKIE])) {
 		$screener1 = explode(" ", $_COOKIE[BB2_COOKIE]);
+	} else {
+		$screener1 = array(0);
 	}
 	if (isset($_POST[BB2_COOKIE])) {
 		$screener2 = explode(" ", $_POST[BB2_COOKIE]);
+	} else {
+		$screener2 = array(0);
 	}
 	$screener = max($screener1[0], $screener2[0]);
 

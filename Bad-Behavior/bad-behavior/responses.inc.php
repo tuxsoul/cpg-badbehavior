@@ -4,12 +4,13 @@
 
 function bb2_get_response($key) {
 	$bb2_responses = array(
-		'00000000' => array('response' => 200, 'explanation' => '', 'log' => ''),
+		'00000000' => array('response' => 200, 'explanation' => '', 'log' => 'Permitted'),
 		'136673cd' => array('response' => 403, 'explanation' => 'Your Internet Protocol address is listed on a blacklist of addresses involved in malicious or illegal activity. See the listing below for more details on specific blacklists and removal procedures.', 'log' => 'IP address found on external blacklist'),
 		'17566707' => array('response' => 403, 'explanation' => 'An invalid request was received from your browser. This may be caused by a malfunctioning proxy server or browser privacy software.', 'log' => 'Required header \'Accept\' missing'),
 		'17f4e8c8' => array('response' => 403, 'explanation' => 'You do not have permission to access this server.', 'log' => 'User-Agent was found on blacklist'),
 		'21f11d3f' => array('response' => 403, 'explanation' => 'An invalid request was received. You claimed to be a mobile Web device, but you do not actually appear to be a mobile Web device.', 'log' => 'User-Agent claimed to be AvantGo, claim appears false'),
 		'2b90f772' => array('response' => 403, 'explanation' => 'You do not have permission to access this server. If you are using the Opera browser, then Opera must appear in your user agent.', 'log' => 'Connection: TE present, not supported by MSIE'),
+		'35ea7ffa' => array('response' => 403, 'explanation' => 'You do not have permission to access this server. Check your browser\'s language and locale settings.', 'log' => 'Invalid language specified'),
 		'408d7e72' => array('response' => 403, 'explanation' => 'You do not have permission to access this server. Before trying again, run anti-virus and anti-spyware software and remove any viruses and spyware from your computer.', 'log' => 'POST comes too quickly after GET'),
 		'41feed15' => array('response' => 400, 'explanation' => 'An invalid request was received. This may be caused by a malfunctioning proxy server. Bypass the proxy server and connect directly, or contact your proxy server administrator.', 'log' => 'Header \'Pragma\' without \'Cache-Control\' prohibited for HTTP/1.1 requests'),
 		'45b35e30' => array('response' => 403, 'explanation' => 'An invalid request was received from your browser. This may be caused by a malfunctioning proxy server or browser privacy software.', 'log' => 'Header \'Referer\' is corrupt'),

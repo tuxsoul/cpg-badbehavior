@@ -55,7 +55,7 @@ function bb2_misc_headers($settings, $package)
 	// Exceptions: Clearswift uses lowercase via (refuses to fix;
 	// may be blocked again in the future)
 	if (array_key_exists('via', $package['headers']) &&
-		!strstr($package['headers']['via'],'Clearswift Web Policy Engine')) {
+		strpos($package['headers']['via'],'Clearswift') === FALSE) {
 		return "9c9e4979";
 	}
 
@@ -96,6 +96,7 @@ function bb2_misc_headers($settings, $package)
 	if (array_key_exists('X-Aaaaaaaaaaaa', $package['headers_mixed']) || array_key_exists('X-Aaaaaaaaaa', $package['headers_mixed'])) {
 		return "b9cc1d86";
 	}
+	// Proxy-Connection does not exist and should never be seen in the wild
 	if (array_key_exists('Proxy-Connection', $package['headers_mixed'])) {
 		return "b7830251";
 	}
@@ -114,6 +115,11 @@ function bb2_misc_headers($settings, $package)
 		}
 	}
 	
+	// "uk" is not a language (ISO 639) nor a country (ISO 3166)
+	if (preg_match('/\buk\b/', $package['headers_mixed']['Accept-Language'])) {
+		return "35ea7ffa";
+	}
+
 	return false;
 }
 

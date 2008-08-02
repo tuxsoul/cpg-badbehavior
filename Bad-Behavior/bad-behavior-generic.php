@@ -36,7 +36,8 @@ $bb2_settings_defaults = array(
 	'log_table' => 'bad_behavior',
 	'display_stats' => true,
 	'strict' => false,
-	'verbose' => false
+	'verbose' => false,
+	'logging' => true
 );
 
 // Bad Behavior callback functions.
