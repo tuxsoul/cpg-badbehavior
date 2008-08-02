@@ -4,7 +4,7 @@ Contributors: error, MarkJaquith, Firas, skeltoac
 Donate link: http://www.bad-behavior.ioerror.us/
 Requires at least: 1.2
 Tested up to: 2.3.2
-Stable tag: 2.0.12
+Stable tag: 2.0.13
 
 Bad Behavior is a set of PHP scripts which prevents spambots and other
 malicious accesses to your PHP-based Web site. It prevents comment spam,
@@ -23,6 +23,13 @@ Bad Behavior has been designed to install on each host software in the
 manner most appropriate to each platform. It's usually sufficient to
 follow the generic instructions for installing any plugin or extension
 for your host software.
+
+On MediaWiki, it is necessary to add a second line to LocalSettings.php
+when installing the extension. Your LocalSettings.php should include
+the following:
+
+`	include_once( 'includes/DatabaseFunctions.php' );
+	include( './extensions/Bad-Behavior/bad-behavior-mediawiki.php' );
 
 For complete documentation and installation instructions, please visit
 http://www.bad-behavior.ioerror.us/
