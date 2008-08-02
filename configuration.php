@@ -19,7 +19,7 @@
 if (!defined('IN_COPPERMINE')) die('Not in Coppermine...');
 
 $name='CPG-BadBehavior Plugin';
-$description='Get out spammers of you gallery using project Bad-Behavior v2.0.13.';
+$description='Get out spammers of you gallery using project Bad-Behavior v2.0.20.';
 $author='Mario Oyorzabal Salgado';
 $version='0.1';
 
