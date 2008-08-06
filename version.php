@@ -17,9 +17,9 @@
 */
 
 // version of the cpg-badbehavior
-define ( "CPG_BADBEHAVIOR_VERSION", "0.4" );
+define ( "CPG_BADBEHAVIOR_VERSION", "0.4.1" );
 
 // version of the bad-behavior core
-define ( "CPG_BADBEHAVIOR_VERSION_CORE", "2.0.21" );
+define ( "CPG_BADBEHAVIOR_VERSION_CORE", "2.0.22" );
 
 ?>
