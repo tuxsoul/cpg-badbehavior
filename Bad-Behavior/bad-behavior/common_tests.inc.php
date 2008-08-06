@@ -24,7 +24,7 @@ function bb2_cookies($settings, $package)
 {
 	// Enforce RFC 2965 sec 3.3.5 and 9.1
 	// Bots wanting new-style cookies should send Cookie2
-	if (strpos($package['headers_mixed']['Cookie'], '$Version=0') !== FALSE && !array_key_exists($package['headers_mixed']['Cookie2'])) {
+	if (strpos($package['headers_mixed']['Cookie'], '$Version=0') !== FALSE && !array_key_exists('Cookie2', $package['headers_mixed'])) {
 		return '6c502ff1';
 	}
 	return false;

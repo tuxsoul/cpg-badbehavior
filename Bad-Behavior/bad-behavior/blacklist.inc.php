@@ -21,6 +21,7 @@ function bb2_blacklist($package) {
 		"grub crawler",		// misc comment/email spam
 		"HttpProxy",		// misc comment/email spam
 		"Internet Explorer",	// XMLRPC exploits seen
+		"ISC Systems iRc",	// spam harvester
 		"Jakarta Commons",	// custommised spambots
 		"Java 1.",		// definitely a spammer
 		"Java/1.",		// definitely a spammer
