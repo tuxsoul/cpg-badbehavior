@@ -37,7 +37,10 @@ $bb2_settings_defaults = array(
 	'display_stats' => true,
 	'strict' => false,
 	'verbose' => false,
-	'logging' => true
+	'logging' => true,
+	'httpbl_key' => '',
+	'httpbl_threat' => '25',
+	'httpbl_maxage' => '30',
 );
 
 // Bad Behavior callback functions.
