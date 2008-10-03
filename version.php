@@ -19,9 +19,9 @@
 if (!defined('IN_COPPERMINE')) die('Not in Coppermine...');
 
 // version of the cpg-badbehavior
-define ( 'CPG_BADBEHAVIOR_VERSION', '0.4.2' );
+define ( 'CPG_BADBEHAVIOR_VERSION', '0.4.3' );
 
 // version of the bad-behavior core
-define ( 'CPG_BADBEHAVIOR_VERSION_CORE', '2.0.23' );
+define ( 'CPG_BADBEHAVIOR_VERSION_CORE', '2.0.24' );
 
 ?>
