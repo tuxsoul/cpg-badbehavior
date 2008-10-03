@@ -7,7 +7,7 @@
         Blog:   http://blog.tuxsoul.com/
         E-mail: <tuxsoul@tuxsoul.com>
         Web:    http://code.google.com/p/cpg-dnsbl/
-        Donate: http://tinyurl.com/36mzoa
+        Donate: http://pledgie.org/campaigns/1537
         ******************************************************************************
         This program is free software; you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@ if (!defined('IN_COPPERMINE')) die('Not in Coppermine...');
 
 define ('CPG_BADBEHAVIOR_CWD', dirname(__FILE__));
 
-// bad-behavior
-include ( CPG_BADBEHAVIOR_CWD . '/Bad-Behavior/bad-behavior-generic.php');
+// load bad-behavior core
+include (CPG_BADBEHAVIOR_CWD . '/bad-behavior/bad-behavior-generic.php');
 
 ?>

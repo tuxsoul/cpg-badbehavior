@@ -7,7 +7,7 @@
         Blog:   http://blog.tuxsoul.com/
         E-mail: <tuxsoul@tuxsoul.com>
         Web:    http://code.google.com/p/cpg-dnsbl/
-        Donate: http://tinyurl.com/36mzoa
+        Donate: http://pledgie.org/campaigns/1537
         ******************************************************************************
         This program is free software; you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -18,7 +18,7 @@
 
 if (!defined('IN_COPPERMINE')) die('Not in Coppermine...');
 
-include "version.php";
+include 'version.php';
 
 $name = 'CPG-BadBehavior Plugin';
 $description = 'Get out spammers of you gallery using project Bad-Behavior v' . CPG_BADBEHAVIOR_VERSION_CORE;
@@ -34,7 +34,7 @@ $extra_info = <<<EOT
     <table border="0" cellspacing="0" cellpadding="0"> 
     <tr>
         <td class="admin_menu"><a target="_blank" href="http://code.google.com/p/cpg-dnsbl/" title="Home">Website</a></td>
-        <td class="admin_menu"><a target="_blank" href="http://tinyurl.com/36mzoa" title="Donate">Donate</a></td>
+        <td class="admin_menu"><a target="_blank" href="http://pledgie.org/campaigns/1537" title="Donate">Donate</a></td>
         <td class="admin_menu"><a target="_blank" href="http://www.bad-behavior.ioerror.us/" title="Bad-Behavior">Bad-Behavior</a></td>
     </tr>
     </table>
@@ -49,7 +49,7 @@ $install_info=<<<EOT
     <table border="0" cellspacing="0" cellpadding="0"> 
     <tr>
         <td class="admin_menu"><a target="_blank" href="http://code.google.com/p/cpg-dnsbl/" title="Home">Website</a></td>
-        <td class="admin_menu"><a target="_blank" href="http://tinyurl.com/36mzoa" title="Donate">Donate</a></td>
+        <td class="admin_menu"><a target="_blank" href="http://pledgie.org/campaigns/1537" title="Donate">Donate</a></td>
         <td class="admin_menu"><a target="_blank" href="http://www.bad-behavior.ioerror.us/" title="Bad-Behavior">Bad-Behavior</a></td>
     </tr>
     </table>

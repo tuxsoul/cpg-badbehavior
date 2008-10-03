@@ -58,13 +58,19 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 Lastly and can only wait to block the spammer's coming to you Website.
 
+= Repository's =
+
+SVN: http://code.google.com/p/cpg-dnsbl/source/checkout
+Git: http://github.com/tuxsoul/cpg-badbehavior/
+     http://github.com/tuxsoul/cpg-httpbl/
+
 = Donation =
 
 Please consider helping through donations, for more information visit the 
 following link:
 
 Donation
-http://tinyurl.com/36mzoa
+http://pledgie.org/campaigns/1537
 
 Plugin cpg-badbehavior
 http://code.google.com/p/cpg-dnsbl/
