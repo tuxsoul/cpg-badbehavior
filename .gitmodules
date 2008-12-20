@@ -1,0 +1,3 @@
+[submodule "bad-behavior"]
+	path = bad-behavior
+	url = git://github.com/tuxsoul/bad-behavior.git
