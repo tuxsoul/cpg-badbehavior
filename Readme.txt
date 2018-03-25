@@ -64,7 +64,7 @@ Please consider helping through donations, for more information visit the
 following link:
 
 Donation
-http://pledgie.org/campaigns/1537
+http://coffee.tuxsoul.com
 
 
 Cheers :-).
