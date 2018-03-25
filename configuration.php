@@ -33,7 +33,7 @@ $version = CPG_BADBEHAVIOR_VERSION;
 $extra_info = <<<EOT
     <table border="0" cellspacing="0" cellpadding="0">
     <tr>
-        <td class="admin_menu"><a target="_blank" href="http://code.google.com/p/cpg-dnsbl/" title="Home">Website</a></td>
+        <td class="admin_menu"><a target="_blank" href="https://github.com/tuxsoul/cpg-badbehavior" title="Home">Website</a></td>
         <td class="admin_menu"><a target="_blank" href="http://coffee.tuxsoul.com" title="Donate">Donate</a></td>
         <td class="admin_menu"><a target="_blank" href="http://www.bad-behavior.ioerror.us/" title="Bad-Behavior">Bad-Behavior</a></td>
     </tr>
@@ -48,7 +48,7 @@ EOT;
 $install_info=<<<EOT
     <table border="0" cellspacing="0" cellpadding="0">
     <tr>
-        <td class="admin_menu"><a target="_blank" href="http://code.google.com/p/cpg-dnsbl/" title="Home">Website</a></td>
+        <td class="admin_menu"><a target="_blank" href="https://github.com/tuxsoul/cpg-badbehavior" title="Home">Website</a></td>
         <td class="admin_menu"><a target="_blank" href="http://coffee.tuxsoul.com" title="Donate">Donate</a></td>
         <td class="admin_menu"><a target="_blank" href="http://www.bad-behavior.ioerror.us/" title="Bad-Behavior">Bad-Behavior</a></td>
     </tr>
