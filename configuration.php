@@ -31,7 +31,7 @@ $version = CPG_BADBEHAVIOR_VERSION;
  * example that forms a button the user can click.
  */
 $extra_info = <<<EOT
-    <table border="0" cellspacing="0" cellpadding="0"> 
+    <table border="0" cellspacing="0" cellpadding="0">
     <tr>
         <td class="admin_menu"><a target="_blank" href="http://code.google.com/p/cpg-dnsbl/" title="Home">Website</a></td>
         <td class="admin_menu"><a target="_blank" href="http://pledgie.org/campaigns/1537" title="Donate">Donate</a></td>
@@ -46,7 +46,7 @@ EOT;
  * example that forms a button the user can click.
  */
 $install_info=<<<EOT
-    <table border="0" cellspacing="0" cellpadding="0"> 
+    <table border="0" cellspacing="0" cellpadding="0">
     <tr>
         <td class="admin_menu"><a target="_blank" href="http://code.google.com/p/cpg-dnsbl/" title="Home">Website</a></td>
         <td class="admin_menu"><a target="_blank" href="http://pledgie.org/campaigns/1537" title="Donate">Donate</a></td>
