@@ -6,7 +6,7 @@
         Author: Mario Oyorzabal Salgado
         Blog:   http://blog.tuxsoul.com/
         E-mail: <tuxsoul@tuxsoul.com>
-        Web:    http://code.google.com/p/cpg-dnsbl/
+        Web:    https://github.com/tuxsoul/cpg-badbehavior
         Donate: http://pledgie.org/campaigns/1537
         ******************************************************************************
         This program is free software; you can redistribute it and/or modify

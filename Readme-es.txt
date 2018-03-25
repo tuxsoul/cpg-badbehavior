@@ -8,7 +8,7 @@ Bad-Behavior
 http://www.bad-behavior.ioerror.us/
 
 Plugin cpg-badbehavior
-http://code.google.com/p/cpg-dnsbl/
+https://github.com/tuxsoul/cpg-badbehavior
 
 = Contacto =
 
@@ -21,7 +21,7 @@ E-mail: <tuxsoul@tuxsoul.com>
 Si encuentras algún bug o tienes alguna idea para una característica que creas 
 que le puede ser útil a este Plugin, puedes dejarla en el bugtrack:
 
-http://code.google.com/p/cpg-dnsbl/issues/list
+https://github.com/tuxsoul/cpg-badbehavior/issues
 
 = Licencia =
 
@@ -61,12 +61,6 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Por último ya solo queda esperar para bloquear a los spammer's que lleguen a tú
 sitio web.
 
-= Repositorios =
-
-SVN: http://code.google.com/p/cpg-dnsbl/source/checkout
-Git: http://github.com/tuxsoul/cpg-badbehavior/
-     http://github.com/tuxsoul/cpg-httpbl/
-
 = Donaciones = 
 
 Por favor considera el ayudar mediante donaciones, para más información visita
@@ -74,9 +68,6 @@ el siguiente enlace:
 
 Donación
 http://pledgie.org/campaigns/1537
-
-Plugin cpg-badbehavior
-http://code.google.com/p/cpg-dnsbl/
 
 
 Saludos :-).
