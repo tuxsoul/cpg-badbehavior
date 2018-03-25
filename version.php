@@ -22,6 +22,6 @@ if (!defined('IN_COPPERMINE')) die('Not in Coppermine...');
 define ( 'CPG_BADBEHAVIOR_VERSION', '0.4.6' );
 
 // version of the bad-behavior core
-define ( 'CPG_BADBEHAVIOR_VERSION_CORE', '2.0.29' );
+define ( 'CPG_BADBEHAVIOR_VERSION_CORE', '2.2.20' );
 
 ?>
